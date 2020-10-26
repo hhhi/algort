@@ -1,0 +1,26 @@
+ALGORITHM my first algo
+VAR
+    x : STRING
+    chars , vowels , words : INTEGER;
+
+BEGIN
+    for( var i = 0 ; chars.length,i++ );
+
+    wordsCount(str){
+        return str.slit('').length;
+
+    }
+    function vowel_count(str1)
+{
+    var vowel_list = 'aeiouAEIOU';
+    var vcount = 0;
+    for(var x = 0; x < str1.length ; x++)
+    {
+    if (vowel_list.indexOf(str1[x]) !== -1)
+    {
+    vcount += 1;
+    }
+    }
+    return vcount;
+} 
+END
